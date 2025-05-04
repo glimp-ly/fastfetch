@@ -12,20 +12,9 @@ This repository contains my custom Fastfetch configuration. Fastfetch is a tool 
 
 Before using this configuration, ensure you have Fastfetch installed.
 
-<details>
-  <summary>Arch Linux</summary>
-
-```bash
-sudo pacman -S fastfetch
-```
-</details>
-
-<details> <summary>Debian/Ubuntu-based</summary>
-
-```bash
-sudo apt install fastfetch
-```
-</details>
+> Most distributions have Fastfetch in their official repositories. Check according to your distro — for example, on Debian, it might not be in the official repo.
+> 
+> If it's not available, refer to the [Fastfetch GitHub repository](https://github.com/fastfetch-cli/fastfetch) for the installation guide.
 
 <br>
 
