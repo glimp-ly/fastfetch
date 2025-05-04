@@ -32,10 +32,11 @@ sudo apt install fastfetch
 <p> <strong> Installation </strong> </p>
 
 ```shell
-git clone https://github.com/harilvfs/fastfetch
-mkdir -p ~/.config/fastfetch
-cp -r fastfetch/* ~/.config/fastfetch/
+git clone https://github.com/harilvfs/fastfetch ~/.config/fastfetch
 ```
+
+> [!IMPORTANT]
+> Remember to backup your current config.
 
 <p> <strong> Verify Installation </strong> </p>
 
