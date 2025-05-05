@@ -1,3 +1,3 @@
-This is my old Fastfetch config, without any JPG or PNG images.
+This is my Fastfetch config, without any JPG or PNG images.
 
 ![preview](./preview.png)
