@@ -1,53 +1,40 @@
+> [!NOTE]
+> For the people who came from my Reddit post, the Reddit post config is on the [old-days](https://github.com/harilvfs/fastfetch/tree/old-days) branch, you can have a look there. If you have some issue or improvement for that, I will appreciate your feedback. You can just create an issue, or if you have any improvement idea there, you can contribute too.
+
 <p align="center"> <strong> Fastfetch Configuration </strong></p>
 
 ![Fastfetch](https://github.com/harilvfs/fastfetch/blob/main/preview.png)
 
-<strong> Overview </strong>
+*This is just another fastfetch config with image/pngs support.*
 
-This repository contains my custom Fastfetch configuration. Fastfetch is a tool to display system information in the terminal, and this configuration provides a personalized setup to enhance your terminal experience.
+> [!IMPORTANT]
+> Make sure to add proper image dirs in `"source": "~/.config/fastfetch/images/arch.png"` like this. Also reminder, your terminal should support image rendering to support this fastfetch config. Like kitty does, but alacritty does not support this currently.  
 
-<br>
+## Installation
 
-<p> <strong> Install Dependencies </strong> </p>
-
-Before using this configuration, ensure you have Fastfetch installed.
-
-> Most distributions have Fastfetch in their official repositories. Check according to your distro — for example, on Debian, it might not be in the official repo.
-> 
-> If it's not available, refer to the [Fastfetch GitHub repository](https://github.com/fastfetch-cli/fastfetch) for the installation guide.
-
-<br>
-
-<p> <strong> Installation </strong> </p>
-
-```shell
+```sh
 git clone https://github.com/harilvfs/fastfetch ~/.config/fastfetch
 ```
 
-> [!IMPORTANT]
+> [!CAUTION]
 > Remember to backup your current config.
 
-<p> <strong> Verify Installation </strong> </p>
+### Verify Installation
 
-To ensure everything is set up correctly, run Fastfetch in your terminal
+To ensure everything is fine, run Fastfetch in your terminal
 
-```shell
+```sh
 fastfetch
 ```
-<br>
 
-<p> <strong> Customization </strong> </p>
+## Customization
 
-Feel free to modify the configuration files in the `~/.config/fastfetch/` directory to suit your preferences. You can customize various aspects, including colors, icons, and the layout of the information displayed.
+Customization in fastfetch is pretty damn good enough. You can just change anything that suits your need or preferences. Btw make sure not to break that, otherwise just do anything you wanna do.
 
-<br>
+## Contributing
 
-<p> <strong>  Contributing </strong> </p>
+If you have suggestions or improvements, feel free to open an issue or submit a pull request.
 
-If you have suggestions or improvements, feel free to open an issue or submit a pull request on the [GitHub repository](https://github.com/harilvfs/fastfetch).
+## License
 
-<br>
-
-<p> <strong> License </strong> </p>
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+MIT License
