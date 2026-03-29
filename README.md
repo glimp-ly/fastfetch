@@ -1,5 +1,15 @@
-Fastfetch config, without any JPG or PNG images.
+Fastfetch config, sin imagenes, solo ascii.
 
 ![preview](./preview.png)
 
-reddit people hey! have a good day :) 
+### Instalación
+
+```
+git clone https://github.com/glimp-ly/fastfetch.git
+```
+
+```
+ln -s ~/fastfetch/fastfetch/ ~/.config/
+```
+
+
