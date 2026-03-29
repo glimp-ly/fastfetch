@@ -1,5 +1,1 @@
-Fastfetch config, without any JPG or PNG images.
-
-![preview](./preview.png)
-
-reddit people hey! have a good day :) 
+Esta rama será donde se suben los cambios antes de hacer merge con la rama main, aquí se puede obtener el estilo más reciente antes que en main.
