@@ -13,3 +13,5 @@ git clone https://github.com/glimp-ly/fastfetch.git
 ```
 ln -s ~/fastfetch/fastfetch/ ~/.config/
 ```
+
+![preview](preview.png)
